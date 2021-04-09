@@ -20,11 +20,11 @@ void Initialization();
 void send_command(char A)
 {
     P4->OUT = A;
-    delay_us(1000);
+    delay_us(100);
     P4->OUT |= BIT2;
-    delay_us(1000);
+    delay_us(100);
     P4->OUT &= ~BIT2;
-    delay_us(1000);
+    delay_us(100);
 }
 
 void Clear_LCD()
