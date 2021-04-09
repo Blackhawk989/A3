@@ -14,7 +14,7 @@ int main(void) {
 
     Write_string_LCD("Hello World", 11);
     Second_Line_LCD();
-    Write_string_LCD("Assignment 2", 12);
+    Write_string_LCD("Assignment 3", 12);
 
     while(1)
     {
