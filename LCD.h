@@ -5,7 +5,8 @@
 
 void Clear_LCD();
 void Home_LCD();
-void Write_char_LCD();
-void Writecom(char A);
+void Write_char_LCD(char c);
+void Write_string_LCD(char * s, int length);
+void Initialization();
 
 #endif /* LCD_H_ */
