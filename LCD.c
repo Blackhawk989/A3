@@ -79,7 +79,8 @@ void Write_char_LCD(char c)
 
 void Write_string_LCD(char * s, int length)
 {
-    for (int i = 0; i < length; i++)
+    int i;
+    for (i = 0; i < length; i++)
     {
         Write_char_LCD(s[i]);
     }
